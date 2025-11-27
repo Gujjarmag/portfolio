@@ -54,8 +54,8 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-blue-900 mb-6 text-left">
+    <section id="projects" className="max-w-5xl mx-auto mx-auto px-6 py-10">
+      <h2 className="text-3xl font-bold text-[#F8F8F8] mb-6 text-left">
         Projects
       </h2>
 
@@ -63,7 +63,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray border border-blue-300 text-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition"
+            className="bg-gray border border-[#122B54] text-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition"
           >
             {project.img && (
               <img

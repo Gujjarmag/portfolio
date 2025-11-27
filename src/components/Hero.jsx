@@ -3,7 +3,7 @@ import profilePic from "../assets/profile.jpg";
 
 export default function Hero() {
   return (
-    <section className="w-full flex items-center justify-start py-12 px-6">
+    <section className="w-full flex items-center justify-start py-10 px-6 max-w-5xl mx-auto">
       <div className="flex flex-col md:flex-row items-center max-w-6xl w-full gap-8">
         {/* Profile Picture */}
         <div className="flex flex-col items-center">
@@ -32,8 +32,8 @@ export default function Hero() {
 
         {/* Name & Tagline */}
         <div className="text-left">
-          <h1 className="text-5xl font-bold text-blue-900">Muneeb Ahmad</h1>
-          <p className="mt-4 text-xl text-gray-700">
+          <h1 className="text-5xl font-bold text-[#F8F8F8]">Muneeb Ahmad</h1>
+          <p className="mt-4 text-xl text-[#99A1AF]">
             Web Developer | React, Node.js | Civil Engineer
           </p>
         </div>

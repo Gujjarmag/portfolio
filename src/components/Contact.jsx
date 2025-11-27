@@ -2,7 +2,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="max-w-5xl mx-auto px-6 py-20">
+    <section id="contact" className="max-w-5xl mx-auto px-6 py-10">
       {/* <h2 className="text-3xl font-bold text-gray-800 mb-6 text-left">
         Contact
       </h2>
@@ -12,7 +12,7 @@ export default function Contact() {
         internship opportunities.
       </p> */}
 
-      <div className="flex items-center max-w-md border border-blue-300 rounded-lg px-6 py-4 shadow-sm hover:shadow-md transition">
+      <div className="flex items-center max-w-md border border-[#122B54] rounded-lg px-6 py-4 shadow-sm hover:shadow-md transition">
         <FaEnvelope className="text-gray-700 text-2xl mr-4" />
         <a
           href="mailto:muneebke@gmail.com"

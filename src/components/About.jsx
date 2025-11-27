@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="max-w-5xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-blue-900 mb-6">About Me</h2>
+    <section id="about" className="max-w-5xl mx-auto px-6 py-10">
+      <h2 className="text-3xl font-bold text-[#F8F8F8] mb-6">About Me</h2>
 
-      <p className="text-gray-700 leading-relaxed text-lg">
+      <p className="text-[#99A1AF] leading-relaxed text-lg">
         I am Muneeb Ahmad, a Web Developer with hands-on experience in building
         applications using React, Node.js, and modern JavaScript tools. With a
         professional background in Civil Engineering and over eight years of
@@ -11,7 +11,7 @@ export default function About() {
         coordination, and problem-solving skills into software development.
       </p>
 
-      <p className="text-gray-700 leading-relaxed text-lg mt-4">
+      <p className="text-[#99A1AF] leading-relaxed text-lg mt-4">
         Currently pursuing a Master of Science in Computer Science, I am
         expanding my expertise in backend systems, modern web technologies,
         databases, and scalable application development. My goal is to deliver

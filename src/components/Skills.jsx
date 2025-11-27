@@ -19,9 +19,9 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="max-w-5xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-blue-900 mb-6">Skills</h2>
-      <p className="text-gray-700 text-lg mb-8">
+    <section id="skills" className="max-w-5xl mx-auto px-6 py-10">
+      <h2 className="text-3xl font-bold text-[#F8F8F8] mb-6">Skills</h2>
+      <p className="text-[#99A1AF] text-lg mb-8">
         Technologies and tools I work with:
       </p>
 
@@ -29,10 +29,10 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.name}
-            className="flex flex-col items-center justify-center px-4 py-6 border border-blue-300 rounded-lg shadow-sm bg-gray hover:shadow-md transition"
+            className="flex flex-col items-center justify-center px-4 py-6 border border-[#122B54] rounded-lg shadow-sm bg-gray hover:shadow-md transition"
           >
             <div className="text-4xl mb-2">{skill.icon}</div>
-            <span className="text-gray-700 font-medium">{skill.name}</span>
+            <span className="text-[#99A1AF] font-medium">{skill.name}</span>
           </div>
         ))}
       </div>
