@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Hero />
-      <Navbar />
+      {/* <Navbar /> */}
       <About />
       <Skills />
       <Projects />
