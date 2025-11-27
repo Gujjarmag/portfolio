@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about" className="max-w-5xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+      <h2 className="text-3xl font-bold text-blue-900 mb-6">About Me</h2>
 
       <p className="text-gray-700 leading-relaxed text-lg">
         I am Muneeb Ahmad, a Web Developer with hands-on experience in building

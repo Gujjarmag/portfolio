@@ -3,14 +3,14 @@ import profilePic from "../assets/profile.jpg";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-100 to-purple-100 p-6">
+    <section className="w-full flex items-center justify-start py-12 px-6">
       <div className="flex flex-col md:flex-row items-center max-w-6xl w-full gap-8">
         {/* Profile Picture */}
         <div className="flex flex-col items-center">
           <img
             src={profilePic}
             alt="Muneeb Ahmad"
-            className="w-48 h-48 rounded-full object-cover border-4 border-gray-300 shadow-lg"
+            className="w-48 h-48 rounded-full object-cover border-2 border-gray-300 shadow-sm"
           />
 
           {/* Social Icons */}
@@ -31,27 +31,11 @@ export default function Hero() {
         </div>
 
         {/* Name & Tagline */}
-        <div className="text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-800">
-            Muneeb Ahmad
-          </h1>
-          <p className="mt-4 text-xl md:text-2xl text-gray-700">
+        <div className="text-left">
+          <h1 className="text-5xl font-bold text-blue-900">Muneeb Ahmad</h1>
+          <p className="mt-4 text-xl text-gray-700">
             Web Developer | React, Node.js | Civil Engineer
           </p>
-          <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <a
-              href="#projects"
-              className="px-6 py-3 border border-gray-800 rounded-md hover:bg-gray-800 hover:text-white transition"
-            >
-              View Projects
-            </a>
-            <a
-              href="#contact"
-              className="px-6 py-3 border border-gray-800 rounded-md hover:bg-gray-800 hover:text-white transition"
-            >
-              Contact Me
-            </a>
-          </div>
         </div>
       </div>
     </section>
